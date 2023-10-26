@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+    float a, b;
+    float perimeter, area;
+
+    cout << "Nhap vao hai canh a, b cua hinh chu nhat: ";
+    cin >> a >> b;
+
+    perimeter = 2 * (a + b);
+    area = a * b;
+
+    cout << "Chu vi cua hinh chu nhat la: " << perimeter << endl;
+    cout << "Dien tich cua hinh chu nhat la: " << area << endl;
+
+    return 0;
