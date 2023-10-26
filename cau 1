@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+    int a, b, c;
+    int sum, product;
+
+    cout << "Nhap vao 3 so nguyen a, b, c: ";
+    cin >> a >> b >> c;
+
+    sum = a + b + c;
+    product = a * b * c;
+
+    cout << "Tong cua 3 so nguyen la: " << sum << endl;
+    cout << "Tich cua 3 so nguyen la: " << product << endl;
+
+    return 0;
