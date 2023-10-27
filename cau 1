@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() 
+int main() {
     int a, b, c;
     int sum, product;
 
@@ -16,3 +16,4 @@ int main()
     cout << "Tich cua 3 so nguyen la: " << product << endl;
 
     return 0;
+}
