@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    float r;
+    float perimeter, area;
+
+    cout << "Nhap vao ban kinh r cua hinh tron: ";
+    cin >> r;
+
+    perimeter = 2 * M_PI * r;
+    area = M_PI * pow(r, 2);
+
+    cout << "Chu vi cua hinh tron la: " << perimeter << endl;
+    cout << "Dien tich cua hinh tron la: " << area << endl;
+
+    return 0;
+}
